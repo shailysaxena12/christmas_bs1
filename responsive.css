@@ -1,0 +1,1469 @@
+
+/* for sm */
+@media (min-width:577px){
+/* navbar */
+.navbar{
+   width: 94%;
+ }
+ .navbar .mylogo{
+   width: 200px;
+ }
+ .menubar >li >a{
+     border:  2px solid transparent;
+     font-weight: 700;
+     text-transform: capitalize;
+     transition: all 0.5s linear;
+ }
+ .menubar >li >a:hover{
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 25px;
+     color: white;
+     background-color: red;
+ }
+ /* navbar */
+ /* banner */
+ .banner{
+   border: 2px solid whitesmoke;
+   width: 100%;
+   height: 50vh;
+   background-image: url('./assets/images/slider-01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   overflow: hidden;
+}
+ /* banner */
+ /* best wishes title */
+
+  /* bestwishes title */
+   /* john wishes */
+ .johnwish{
+   /* background-color: blueviolet; */
+  }
+  /* johnwish */
+   /* deaslscard */
+.deals{
+   width: 100%;
+   height: auto;
+   /* border: 3px solid; */
+}
+.deals > h1{
+   text-align: center;
+   font-size: 80px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #e91327;
+   padding-top: 20px;
+}
+.deals >.dealcards{
+   width: 100%;
+   height: 80%;
+   /* border: 2px solid pink; */
+   display: grid;
+   grid-template-columns: repeat(1,450px);
+   grid-template-rows: repeat(4,300px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 20px;
+}
+.deals > .dealcards >.dealcard{
+   width: 100%;
+   height: 100%;
+   border: 8px solid gainsboro;
+   position: relative;
+}
+/* best deals */
+.donatecards{
+   /* border: 5px solid ; */
+   width: 100%;
+   height: 800vh; 
+ }
+ .donatecards h1{
+   text-align: center;
+   font-size: 80px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+
+ }
+ .donatecards >.cards{
+   display: grid;
+   grid-template-columns: repeat(1,450px);
+   grid-template-rows: repeat(6,350px);
+   justify-content: space-evenly;
+   align-content: center;
+   /* gap: 40px; */
+  padding: 20px 50px;
+ }
+ .donatecards >.cards >.card{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   top: 0;
+ }
+ .donatecards >.cards >.card > img{
+   width: 100%;
+   height: 100%;
+   background-size:cover;
+   background-position: center;
+   background-position: center;
+   /* background-repeat: no-repeat; */
+ }
+ .donatecards >.cards >.card >.dcontent{
+   background-color:rgba(234, 15, 15, 0.5);
+   width: 100%;
+   height: 10%;
+   text-align: center;
+   position: absolute;
+    top: 90%;
+   left: 0;
+   transition: all 0.5s linear;
+ }
+ .donatecards >.cards >.card >.dcontent >.btn{
+   width: 80px;
+   height: 30px;
+   color:white;
+   border: transparent;
+ }
+ .donatecards >.cards >.card:hover .dcontent{
+   height: 100%;
+   width: 100%;
+   top:0px;
+   transition: all 0.5s linear;
+ }
+ 
+ /* donate cards */
+ /* testimonial */
+ .testimonial{
+   /* border: 4px solid orange; */
+   height: 100vh;
+   width: 100%;
+   /* background-color: purple; */
+   text-align: center;  
+   padding: 20px 0px;
+ }
+ .testimonial >h1{
+   font-size: 50px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+ }
+ .testimonial .carousel{
+   height: 300px;
+   width: 100%;
+   padding-bottom: 50px;
+   /* border: 5px solid ; */
+ }
+ .testimonial .carousel-inner{
+   /* border: 2px solid aqua; */
+   height: 300px;
+   width: 100%;
+
+ }
+ .testimonial .carousel-inner .carousel-item{
+   /* border: 6px solid goldenrod; */
+   width: 100%;
+   height: 240px;
+   padding: 20px;
+   margin-top: 2;
+   position: relative;
+ }
+ .testimonial .carousel-inner .carousel-item img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+   position: absolute;
+   top: 20%;
+   left: 37%;
+ }
+ .carousel-caption h5{
+   color: red;
+   margin: 20px 0px;
+ }
+ .carousel-caption  p{
+   color: grey;
+   margin-bottom: 35px;
+ }
+ .testimonial .carousel-control-prev {
+   /* font-size: 40px; */
+   background-color: grey;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   position: absolute;
+   top: 45%;
+   left: 10%;
+ }
+ .testimonial .carousel-control-next{
+   top: 45%;
+   left: 80%;
+ background-color: grey;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ }
+ /* testimonial */
+ .contactus{
+   width: 100%;
+   height: 850px;
+   /* border: 2px solid ; */
+   background-color: #f7f7f7;
+   margin-top: 50px;
+  }
+  .contactus >.contactustitle{
+   text-align: center;
+   font-size: 60px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .contactus .contactusform input{
+   display: inline-block;
+   width: 45%;
+   background-color: white;
+  }
+  .contactus .contactusform .text{
+   background-color:white;
+  }
+  .contactus .contactusform button{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius:25px ;
+  }
+   .details{
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+    padding-top: 30px;
+    /* gap: 10px; */
+    /* padding-right: 50px; */
+   }
+   .details i{
+     background-color: #e91327;
+     color: white;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+   }
+   /* contacts */
+    /* subscribe */
+  .subscribe{
+   width: 100%;
+   height: 200px;
+   background-color: #e91327;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .subscribe h1{
+   font-size: 30px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color:white;
+ }
+ .subscribe input{
+   width: 60%;
+   height: 30px;
+ }
+ .subscribe button{
+   background-color: black;
+   color: white;
+   padding: 8px 10px;
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   margin-top: 10px;
+ }
+ .copyright{
+   height: 60px ;
+   width: 100%;
+   background-color: #cccc;
+   color:#333;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 10px;
+ }
+ /* copyright */
+}
+
+/* for md */
+@media (min-width:769px){
+   /* navbar */
+.navbar{
+   width: 94%;
+ }
+ .navbar .mylogo{
+   width: 200px;
+ }
+ .navbar li a{
+   font-weight: 400;
+   font-size: 15px;
+ }
+ /* navbar */
+  /* banner */
+  .banner{
+   border: 2px solid whitesmoke;
+   width: 100%;
+   height: 70vh;
+   background-image: url('./assets/images/slider-01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   overflow: hidden;
+}
+ /* banner */
+ /* best wishes title */
+ .bestwishestitle{
+   width: 100%;
+   /* height: 600px; */
+   /* background-color: aqua; */
+  }
+  .bestwishestitle{
+     font-size: 60px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .harrywish{
+     font-size: 20px;
+     color: #e91327;
+     font-family: sans-serif;
+    
+  }
+  .harrywishpara{
+   font-size: 15px;
+   font-family: sans-serif;
+   color: black;
+  }
+  .harrybtn{
+     border-top-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+     background-color: red;
+     color: white;
+     padding: 5px 15px;
+     border: none;
+     font-size: 20px;
+     font-family: sans-serif;
+     width: 150px !important;
+  }
+  /* bestwishes title */
+     /* deaslscard */
+.deals{
+   width: 100%;
+   height: auto;
+   /* border: 3px solid; */
+}
+.deals > h1{
+   text-align: center;
+   font-size: 60px;
+   font-family: "Great Vibes", serif;
+   font-weight: 500;
+   font-style: normal;
+   color: #e91327;
+   padding-top: 25px;
+}
+.deals >.dealcards{
+   width: 100%;
+   height: 80%;
+   /* border: 2px solid pink; */
+   display: grid;
+   grid-template-columns: repeat(2,340px);
+   grid-template-rows: repeat(2,270px);
+   justify-content: space-evenly;
+   align-content: center;
+   /* gap: 20px; */
+   margin-right: 20px;
+}
+.deals > .dealcards >.dealcard{
+   width: 100%;
+   height: 100%;
+   border: 8px solid gainsboro;
+   position: relative;
+}
+/* best deals */
+.donatecards{
+   /* border: 5px solid ; */
+   width: 100%;
+   height: 650vh; 
+ }
+ .donatecards h1{
+   text-align: center;
+   font-size: 80px;
+    font-family: "Great Vibes", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+    padding-top: 60px;
+
+ }
+ .donatecards >.cards{
+   display: grid;
+   grid-template-columns: repeat(1,550px);
+   grid-template-rows: repeat(4,350px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 40px;
+  padding: 20px 100px;
+ }
+ .donatecards >.cards >.card{
+   width: 100%;
+   height: 100%;
+   position: relative;
+ }
+ .donatecards >.cards >.card > img{
+   width: 100%;
+   height: 100%;
+ }
+ .donatecards >.cards >.card >.dcontent{
+   background-color:rgba(234, 15, 15, 0.5);
+   width: 100%;
+   height: 10%;
+   text-align: center;
+   position: absolute;
+   top:90%;
+   left: 0;
+   transition: all 0.5s linear;
+ }
+ .donatecards >.cards >.card >.dcontent >.btn{
+   width: 80px;
+   height: 30px;
+   color:white;
+   border: transparent;
+ }
+ .donatecards >.cards >.card:hover .dcontent{
+   height: 100%;
+   width: 100%;
+   top:0px;
+   transition: all 0.5s linear;
+ }
+ /* donate cards */
+ /* testimonial */
+ .testimonial{
+   /* border: 4px solid orange; */
+   height: 80vh;
+   width: 100%;
+   /* background-color: purple; */
+   text-align: center;  
+   padding: 20px 0px;
+ }
+ .testimonial >h1{
+   font-size: 80px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+ }
+ .testimonial .carousel{
+   height: 400px;
+   width: 100%;
+   padding-bottom: 20px;
+   /* border: 5px solid ; */
+ }
+ .testimonial .carousel-inner{
+   /* border: 2px solid aqua; */
+   height: 400px;
+   width: 100%;
+
+ }
+ .testimonial .carousel-inner .carousel-item{
+   /* border: 6px solid goldenrod; */
+   width: 100%;
+   height: 400px;
+   padding: 20px;
+   margin-top: 2;
+   position: relative;
+ }
+ .testimonial .carousel-inner .carousel-item img{
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   position: absolute;
+   top: 7%;
+   left: 41%;
+ }
+ .carousel-caption h5{
+   color: red;
+   margin: 20px 0px;
+ }
+ .carousel-caption p{
+   color: grey;
+   margin-bottom: 35px;
+ }
+ .testimonial .carousel-control-prev {
+   /* font-size: 40px; */
+   background-color: grey;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+ }
+ .testimonial .carousel-control-next{
+   top: 30%;
+   left: 80%;
+ background-color: grey;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ }
+ /* testimonial */
+ /* contact us */
+ .contactus{
+   width: 100%;
+   height: 850px;
+   /* border: 2px solid ; */
+   background-color: #f7f7f7;
+  }
+  .contactus >.contactustitle{
+   text-align: center;
+   font-size: 60px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .contactus .contactusform input{
+   display: inline-block;
+   width: 45%;
+   background-color: #333;
+  }
+  .contactus .contactusform .text{
+   background-color: #333;
+  }
+  .contactus .contactusform button{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius:25px ;
+  }
+   .details{
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+    padding-top: 30px;
+    gap: 30px;
+    /* padding-right: 50px; */
+   }
+   .details i{
+     background-color: #e91327;
+     color: white;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+   }
+   /* contacts */
+    /* subscribe */
+  .subscribe{
+   width: 100%;
+   height: 300px;
+   background-color: #e91327;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .subscribe h1{
+   font-size: 70px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color:white;
+ }
+ .subscribe input{
+   width: 60%;
+   height: 50px;
+ }
+ .subscribe button{
+   background-color: black;
+   color: white;
+   padding: 15px 20px;
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   margin-top: 20px;
+ }
+ .copyright{
+   height: 60px ;
+   width: 100%;
+   background-color: #cccc;
+   color:#333;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 15px;
+ }
+ /* copyright */
+}
+
+/* for lg */
+@media (min-width:993px){
+   /* navbar */
+.navbar{
+   width: 94%;
+ }
+ .menubar{
+ 
+ }
+ .navbar .mylogo{
+   width: 200px;
+ }
+ .menubar >li >a{
+     border:  2px solid transparent;
+     font-weight: 700;
+     transition: all 0.5s linear;
+ }
+ .menubar >li >a:hover{
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 25px;
+     color: white;
+     background-color: red;
+ }
+ /* navabar */
+  /* banner */
+  .banner{
+   border: 2px solid whitesmoke;
+   width: 100%;
+   height: 90vh;
+   background-image: url('./assets/images/slider-01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   overflow: hidden;
+}
+ /* banner */
+  /* best wishes title */
+  .bestwishestitle{
+   width: 100%;
+   /* height: 600px; */
+   /* background-color: aqua; */
+  }
+  .bestwishestitle{
+     font-size: 60px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .harrywish{
+     font-size: 25px;
+     color: #e91327;
+     font-family: sans-serif;
+    
+  }
+  .harrywishpara{
+   font-size: 18px;
+   font-family: sans-serif;
+   color: black;
+  }
+  .harrybtn{
+     border-top-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+     background-color: red;
+     color: white;
+     padding: 5px 15px;
+     border: none;
+     font-size: 25px;
+     font-family: sans-serif;
+     width: 200px !important;
+  }
+  /* bestwishes title */
+       /* deaslscard */
+.deals{
+   width: 100%;
+   height: auto;
+   /* border: 3px solid; */
+}
+
+.deals >.dealcards{
+   width: 100%;
+   height: 80%;
+   /* border: 2px solid pink; */
+   margin: 40px 0;
+   display: grid;
+   grid-template-columns: repeat(2,450px);
+   grid-template-rows: repeat(2,300px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 50px;
+}
+
+/* best deals */
+.donatecards{
+   /* border: 5px solid ; */
+   width: 100%;
+   height: 2100px; 
+ }
+ .donatecards h1{
+   text-align: center;
+   font-size: 150px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+
+ }
+ .donatecards >.cards{
+   display: grid;
+   grid-template-columns: repeat(2,450px);
+   grid-template-rows: repeat(3,300px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 60px;
+  padding: 20px 10px;
+ }
+ .donatecards >.cards >.card{
+   width: 100%;
+   height: 100%;
+   position: relative;
+ }
+ .donatecards >.cards >.card > img{
+   width: 100%;
+   height: 100%;
+   background-size:cover;
+   background-position: center;
+   background-position: center;
+   /* background-repeat: no-repeat; */
+ }
+ .donatecards >.cards >.card >.dcontent{
+   background-color:rgba(234, 15, 15, 0.5);
+   width: 100%;
+   height: 10%;
+   text-align: center;
+   position: absolute;
+   top:100%;
+   left: 0;
+   transition: all 0.5s linear;
+ }
+ .donatecards >.cards >.card >.dcontent >.btn{
+   width: 80px;
+   height: 30px;
+   color:white;
+   border: transparent;
+ }
+ .donatecards >.cards >.card:hover .dcontent{
+   height: 100%;
+   width: 100%;
+   top:0px;
+   transition: all 0.5s linear;
+ }
+ 
+ /* donate cards */
+ /* testimonial */
+ .testimonial{
+   /* border: 4px solid orange; */
+   height: 90vh;
+   width: 100%;
+   /* background-color: purple; */
+   text-align: center;  
+   padding: 30px 0px;
+ }
+ .testimonial >h1{
+   font-size: 90px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+ }
+ .testimonial .carousel{
+   height: 450px;
+   width: 100%;
+   padding-bottom: 50px;
+   /* border: 5px solid ; */
+ }
+ .testimonial .carousel-inner{
+   /* border: 2px solid aqua; */
+   height: 440px;
+   width: 100%;
+
+ }
+ .testimonial .carousel-inner .carousel-item{
+   /* border: 6px solid goldenrod; */
+   width: 100%;
+   height: 450px;
+   padding: 20px;
+   margin-top: 2;
+   position: relative;
+ }
+ .testimonial .carousel-inner .carousel-item img{
+   height: 180px;
+   width: 180px;
+   border-radius: 50%;
+   position: absolute;
+   top: 15%;
+   left: 41%;
+ }
+ .carousel-caption h5{
+   color: red;
+   margin: 20px 0px;
+   font-size: 27px;
+ }
+ .carousel-caption p{
+   color: grey;
+   margin-bottom: 35px;
+   font-size: 20px;
+ }
+ .testimonial .carousel-control-prev {
+   /* font-size: 40px; */
+   background-color: grey;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   position: absolute;
+   top: 45%;
+   left: 10%;
+ }
+ .testimonial .carousel-control-next{
+   top: 45%;
+   left: 80%;
+ background-color: grey;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ }
+ /* contact us */
+ .contactus{
+   width: 100%;
+   height: 700px;
+   /* border: 2px solid ; */
+   background-color: #f7f7f7;
+  }
+  .contactus >.contactustitle{
+   text-align: center;
+   font-size: 80px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .contactus .contactusform input{
+   display: inline-block;
+   width: 45%;
+   background-color: white;
+  }
+  .contactus .contactusform .text{
+   background-color: white;
+  }
+  .contactus .contactusform button{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius:25px ;
+  }
+   .details{
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+    padding-top: 30px;
+    /* gap: 30px; */
+    /* padding-right: 50px; */
+   }
+   .details i{
+     background-color: #e91327;
+     color: white;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+   }
+   /* contacts */
+    /* subscribe */
+  .subscribe{
+   width: 100%;
+   height: 350px;
+   background-color: #e91327;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .subscribe h1{
+   font-size: 80px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color:white;
+ }
+ .subscribe input{
+   width: 60%;
+   height: 55px;
+ }
+ .subscribe button{
+   background-color: black;
+   color: white;
+   padding: 15px 25px;
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   margin-top: 20px;
+ }
+ .copyright{
+   height: 60px ;
+   width: 100%;
+   background-color: #cccc;
+   color:#333;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 20px;
+ }
+ /* copyright */
+}
+/* from 1200px */
+@media (min-width:1200px) {
+   /* navbar */
+.navbar{
+   width: 100%;
+ }
+ .navbar .mylogo{
+   width: 400px;
+ }
+ .menubar >li >a{
+     border:  2px solid transparent;
+     font-weight: 700;
+     text-transform: capitalize;
+     transition: all 0.5s linear;
+ }
+ .menubar >li >a:hover{
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 25px;
+     color: white;
+     background-color: red;
+ }
+ /* navbar */
+ /* banner */
+.banner{
+   border: 2px solid whitesmoke;
+   width: 100%;
+   height: 90vh;
+   background-image: url(./assets/images/slider-01.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   overflow: hidden;
+}
+.bestwishestitle{
+   font-size: 80px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: red;
+}
+.harrywish{
+   font-size: 45px;
+   color: #e91327;
+   font-family: sans-serif; 
+}
+.harrywishpara{
+ font-size: 25px;
+ font-family: sans-serif;
+ color: black;
+}
+.harrybtn{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background-color:#e91327;
+   color: white;
+   padding: 15px 20px;
+   border: none;
+   font-size: 15px;
+   font-family: sans-serif;
+}
+/* bestwishes title */
+.deals{
+   width: 100%;
+   height: auto;
+   /* border: 3px solid; */
+}
+.deals > h1{
+   text-align: center;
+   font-size: 80px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #e91327;
+   padding-top: 20px;
+}
+.deals >.dealcards{
+   width: 100%;
+   height: 80%;
+   /* border: 2px solid pink; */
+   display: grid;
+   grid-template-columns: repeat(2,550px);
+   grid-template-rows: repeat(2,370px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 20px;
+   padding: 0px 50px;
+}
+/* donatecards */
+.donatecards{
+   /* border: 5px solid ; */
+   width: 100%;
+   height: 2600px; 
+ }
+ .donatecards h1{
+   text-align: center;
+   font-size: 80px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+
+ }
+ .donatecards >.cards{
+   display: grid;
+   grid-template-columns: repeat(2,550px);
+   grid-template-rows: repeat(4,400px);
+   justify-content: space-evenly;
+   align-content: center;
+   gap: 80px;
+  padding: 40px 30px;
+ }
+ .testimonial{
+   /* border: 4px solid orange; */
+   height: 100vh;
+   width: 100%;
+   /* background-color: purple; */
+   text-align: center;  
+   padding: 20px 0px;
+ }
+ .testimonial >h1{
+   font-size: 120px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    padding-bottom: 50px;
+ }
+ .testimonial .carousel{
+   height: 520px;
+   width: 100%;
+   padding-bottom: 50px;
+   /* border: 5px solid ; */
+ }
+ .testimonial .carousel-inner{
+   /* border: 2px solid aqua; */
+   height: 480px;
+   width: 100%;
+
+ }
+ .testimonial .carousel-inner .carousel-item{
+   /* border: 6px solid goldenrod; */
+   width: 100%;
+   height: 470px;
+   padding: 20px;
+   margin-top: 2;
+   position: relative;
+ }
+ .testimonial .carousel-inner .carousel-item img{
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+   position: absolute;
+   top: 1%;
+   left: 40%;
+ }
+ .carousel-caption h5{
+   color: red;
+   margin: 20px 0px;
+   font-size: 30px;
+ }
+ .carousel-caption p{
+   color: grey;
+   margin-bottom: 35px;
+   font-size: 30px;
+ }
+ .testimonial .carousel-control-prev {
+   /* font-size: 40px; */
+   background-color: grey;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 45%;
+   left: 10%;
+ }
+ .testimonial .carousel-control-next{
+   top: 45%;
+   left: 80%;
+ background-color: grey;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ }
+ /* contact us */
+ .contactus{
+   width: 100%;
+   height: 700px;
+   /* border: 2px solid ; */
+   background-color: #f7f7f7;
+  }
+  .contactus >.contactustitle{
+   text-align: center;
+   font-size: 80px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color: red;
+  }
+  .contactus .contactusform input{
+   display: inline-block;
+   width: 47%;
+   background-color: white;
+  }
+  .contactus .contactusform .text{
+   background-color: white;
+  }
+  .contactus .contactusform button{
+   height: 60px;
+   border-top-left-radius: 25px;
+   border-bottom-right-radius:25px ;
+  }
+   .details{
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+    padding-top: 30px;
+    /* gap: 30px; */
+    /* padding-right: 50px; */
+   }
+   .details i{
+     background-color: #e91327;
+     color: white;
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+   }
+   .details >.detailcontent{
+      font-size: 23px;
+   }
+   /* contacts */
+   /* subscribe */
+   .subscribe{
+      width: 100%;
+      height: 450px;
+      background-color: #e91327;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .subscribe h1{
+      font-size: 90px;
+      font-family: "Great Vibes", serif;
+      font-weight: 400;
+      font-style: normal;
+      color:white;
+    }
+    .subscribe input{
+      width: 60%;
+      height: 80px;
+    }
+    .subscribe button{
+      background-color: black;
+      color: white;
+      padding: 25px 40px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      margin-top: 20px;
+      font-size: 25px;
+    }
+    /* subscribe */
+    /* copyright */
+    .copyright{
+      height: 100px ;
+      width: 100%;
+      background-color: #cccc;
+      color:#333;
+      text-align: center;
+      padding-top: 27px;
+      font-size: 25px;
+    }
+    /* copyright */
+}
+/* from 1400px  */
+@media (min-width:1400px){
+    /* navbar */
+.navbar{
+   width: 100%;
+ }
+ .navbar .mylogo{
+   width: 250px;
+ }
+ .menubar >li >a{
+   border:  2px solid transparent;
+   font-weight: 700;
+   text-transform: capitalize;
+   transition: all 0.5s linear;
+   font-size: 20px;
+}
+/* banner */
+.banner{
+   border: 2px solid whitesmoke;
+   width: 100%;
+   height: 100vh;
+   background-image: url(./assets/images/slider-01.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   overflow: hidden;
+}
+.bestwishestitle{
+   font-size: 60px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: red;
+}
+.harrywish{
+   font-size: 40px;
+   color: #e91327;
+   font-family: sans-serif; 
+}
+.harrywishpara{
+ font-size: 15px;
+ font-family: sans-serif;
+ color: black;
+}
+.harrybtn{
+   border-top-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background-color:#e91327;
+   color: white;
+   padding: 12px 10px;
+   border: none;
+   font-size: 15px;
+   font-family: sans-serif;
+}
+/* bestwishes title */
+.deals{
+   width: 100%;
+   height: auto;
+   /* border: 3px solid; */
+}
+.deals > h1{
+   text-align: center;
+   font-size: 80px;
+   font-family: "Great Vibes", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #e91327;
+   padding-top: 20px;
+}
+.deals >.dealcards{
+   width: 100%;
+   height: 80%;
+   /* border: 2px solid pink; */
+   display: grid;
+   grid-template-columns: repeat(2,480px);
+   grid-template-rows: repeat(2,300px);
+   justify-content: space-evenly;
+   align-content: center;
+   /* gap: 10px; */
+   padding: 0px 100px;
+}
+/* donatecards */
+.donatecards{
+   /* border: 5px solid ; */
+   width: 100%;
+   height: 1300px; 
+ }
+ .donatecards h1{
+   text-align: center;
+   font-size: 90px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+
+ }
+ .donatecards >.cards{
+   display: grid;
+   grid-template-columns: repeat(3,400px);
+   grid-template-rows: repeat(3,250px);
+   justify-content: space-evenly;
+   align-content: center;
+   /* gap: 80px; */
+  padding: 40px 100px;
+ }
+ .testimonial{
+   /* border: 4px solid orange; */
+   height: 100vh;
+   width: 100%;
+   /* background-color: purple; */
+   text-align: center;  
+   padding: 20px 0px;
+ }
+ .testimonial >h1{
+   font-size: 100px;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    padding-bottom: 50px;
+ }
+ .testimonial .carousel{
+   height: 520px;
+   width: 100%;
+   padding-bottom: 50px;
+   /* border: 5px solid ; */
+ }
+ .testimonial .carousel-inner{
+   /* border: 2px solid aqua; */
+   height: 480px;
+   width: 100%;
+
+ }
+ .testimonial .carousel-inner .carousel-item{
+   /* border: 6px solid goldenrod; */
+   width: 100%;
+   height: 470px;
+   padding: 20px;
+   margin-top: 2;
+   position: relative;
+ }
+ .testimonial .carousel-inner .carousel-item img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 1%;
+   left: 44%;
+ }
+ .carousel-caption h5{
+   color: red;
+   margin: 20px 0px;
+   font-size: 25px;
+ }
+ .carousel-caption p{
+   color: grey;
+   margin-bottom: 35px;
+   font-size: 20px;
+ }
+ .testimonial .carousel-control-prev {
+   /* font-size: 40px; */
+   background-color: grey;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 45%;
+   left: 10%;
+ }
+ .testimonial .carousel-control-next{
+   top: 45%;
+   left: 80%;
+ background-color: grey;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ }
+ /* contact us */
+ .contactus{
+   width: 100%;
+   height: 700px;
+   /* border: 2px solid ; */
+   background-color: #f7f7f7;
+  }
+  .contactus >.contactustitle{
+   text-align: center;
+   font-size: 80px;
+     font-family: "Great Vibes", serif;
+     font-weight: 400;
+     font-style: normal;
+     color:#e91327;
+  }
+  .contactus .contactusform input{
+   display: inline-block;
+   width: 47%;
+   background-color: white;
+  }
+  .contactus .contactusform .text{
+   background-color: white;
+  }
+  .contactus .contactusform button{
+   height: 50px;
+   border-top-left-radius: 25px;
+   border-bottom-right-radius:25px ;
+  }
+   .details{
+     display: flex;
+     justify-content: center;
+     align-items:  center;
+    padding-top: 20px;
+    /* background-color: aqua; */
+    width: 550px;
+    /* gap: 30px; */
+    /* padding-right: 50px; */
+   }
+   .details i{
+     background-color: #e91327;
+     color: white;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+   }
+   .details >.detailcontent{
+      font-size: 17px;
+   }
+   /* contacts */
+   /* subscribe */
+   .subscribe{
+      width: 100%;
+      height: 450px;
+      background-color: #e91327;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .subscribe h1{
+      font-size: 80px;
+      font-family: "Great Vibes", serif;
+      font-weight: 400;
+      font-style: normal;
+      color:white;
+    }
+    .subscribe input{
+      width: 40%;
+      height: 50px;
+    }
+    .subscribe button{
+      background-color: black;
+      color: white;
+      padding: 15px 25px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    /* subscribe */
+    /* copyright */
+    .copyright{
+      height: 70px ;
+      width: 100%;
+      background-color: #cccc;
+      color:#333;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    /* copyright */
+}
